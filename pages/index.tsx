@@ -1,4 +1,5 @@
 
+import Adventure from '@/Components/Adventure/Adventure';
 import Hero from '@/Components/Hero/Hero';
 import Hotels from '@/Components/Hotels/Hotels';
 import MobileNav from '@/Components/Navbar/MobileNav';
@@ -19,6 +20,7 @@ const Homepage = () => {
       {/* Hero */}
       <Hero />
       <TopDestination />
+      <Adventure />
       {/* Hotels */}
       <Hotels />
     </div>
